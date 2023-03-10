@@ -1,0 +1,40 @@
+.intro {
+  width: 100%;
+
+  background: linear-gradient($intro-grey, $color-default-white);
+  background-image: url(/img/intro-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro__wrapper {
+  width: 100%;
+  height: 880px;
+}
+
+.intro__btn {
+  display: inline-flex;
+  padding: 10px 20px;
+
+  color: $color-default-white;
+
+  background-color: $color-neon-blue;
+  border: none;
+  cursor: pointer;
+
+  transition: opacity $trans-default;
+
+  &--red {
+    background-color: $color-torch-red;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+
+    pointer-events: none;
+  }
+
+  @include hover-focus {
+    opacity: 0.8;
+  }
+}
