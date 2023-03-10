@@ -13,7 +13,7 @@
 @import "global/fonts";
 @import "global/reboot";
 @import "global/utils";
-@import "global/container";
+@import "global/page";
 
 // Blocks
 // ---------------------------------
@@ -23,6 +23,9 @@
 @import "blocks/custom-input";
 @import "blocks/custom-toggle";
 @import "blocks/custom-select";
+@import "blocks/page-header.scss";
+@import "blocks/intro.scss";
+@import "blocks/advantages.scss";
 
 // ---------------------------------
 
