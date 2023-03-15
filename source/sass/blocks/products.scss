@@ -1,0 +1,55 @@
+.products {
+  background-color: $color-background-products;
+  height: 960px;
+}
+
+.products__heading,
+.product__item {
+  color: $color-default-white;
+}
+
+.products__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-left: 350px;
+  margin-right: 350px;
+  list-style: none;
+}
+
+.product__item {
+  width: 350px;
+  height: 650px;
+}
+
+.products__btn {
+  width: 60px;
+  height: 60px;
+  margin-top: 543px;
+  margin-left: 289px;
+  background-color: #00B2FF;
+}
+
+.products__link {
+  margin-left: 25px;
+}
+
+.production-of-boards {
+  background-image: url(/img/products/plata1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mounting-of-boards {
+  background-image: url(/img/products/plata2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accessories {
+  background-image: url(/img/products/plata3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

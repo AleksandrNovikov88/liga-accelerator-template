@@ -386,7 +386,7 @@ template {
 
 @font-face {
   font-family: "Roboto Condensed";
-  src: url("/fonts/RobotoCondensedLight.woff2") format("woff2"), url("/fonts/RobotoCondensedLight.woff") format("woff");
+  src: url("../fonts/RobotoCondensedLight.woff2") format("woff2"), url("../fonts/RobotoCondensedLight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -394,7 +394,7 @@ template {
 
 @font-face {
   font-family: "Roboto Condensed";
-  src: url("/fonts/RobotoCondensed.woff2") format("woff2"), url("/fonts/RobotoCondensed.woff") format("woff");
+  src: url("../fonts/RobotoCondensed.woff2") format("woff2"), url("../fonts/RobotoCondensed.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -402,7 +402,7 @@ template {
 
 @font-face {
   font-family: "Roboto Condensed";
-  src: url("/fonts/RobotoCondensedBold.woff2") format("woff2"), url("/fonts/RobotoCondensedBold.woff") format("woff");
+  src: url("../fonts/RobotoCondensedBold.woff2") format("woff2"), url("../fonts/RobotoCondensedBold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -1365,46 +1365,111 @@ button,
   border-left: solid 5px #00B2FF;
 }
 
-/* @mixin hover-focus {
-    @media (hover: hover) {
-      &:hover:not(.focus-visible) {
-        @content;
-      }
-    }
+.about__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 15% 85%;
+  grid-template-columns: 15% 85%;
+}
 
-    &.focus-visible:focus {
-      @content;
-    }
-  }
-*/
+.products {
+  background-color: #041827;
+  height: 960px;
+}
 
-/*  @include hover-focus {
-      opacity: 0.8;
-    }
-*/
+.products__heading,
+.product__item {
+  color: #ffffff;
+}
 
-/*@mixin hover {
-    @media (hover: hover) {
-      &:hover:not(.focus-visible) {
-        @content;
-      }
-    }
-  }
-*/
+.products__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-left: 350px;
+  margin-right: 350px;
+  list-style: none;
+}
 
-/*@mixin focus {
-    &.focus-visible:focus {
-      @content;
-    }
-  }
-*/
+.product__item {
+  width: 350px;
+  height: 650px;
+}
 
-/*@mixin active {
-    &.focus-visible:active {
-      @content;
-    }
-  }
-*/
+.products__btn {
+  width: 60px;
+  height: 60px;
+  margin-top: 543px;
+  margin-left: 289px;
+  background-color: #00B2FF;
+}
+
+.products__link {
+  margin-left: 25px;
+}
+
+.production-of-boards {
+  background-image: url(/img/products/plata1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mounting-of-boards {
+  background-image: url(/img/products/plata2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accessories {
+  background-image: url(/img/products/plata3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feedback {
+  background-color: #00B3FF;
+  height: 845px;
+}
+
+.footer {
+  background-color: #041827;
+  height: auto;
+}
+
+.social__list,
+.sections-site__list,
+.contacts__list {
+  list-style: none;
+}
+
+.sections-site__heading,
+.sections-site__item,
+.footer__contacts,
+.contacts__telephon {
+  color: #ffffff;
+}
+
+.footer__footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
 
 @media (max-width: 767px) {
   .modal__wrapper {
