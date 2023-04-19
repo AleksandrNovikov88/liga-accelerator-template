@@ -1,4 +1,46 @@
 .about__wrapper {
+  width: 1220px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 20% 80%;
+  padding-top: 120px;
+}
+
+.about__heading {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 51px;
+  margin-left: 5px;
+}
+
+.about__text {
+  font-family: "PT Mono";
+  margin-top: 8px;
+  margin-left: 6px;
+}
+
+.about__text--paragraph-two {
+  margin-top: 15px;
+}
+
+.about__button {
+  display: inline-block;
+  margin-top: 35px;
+  margin-left: 6px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  border: 1px solid $color-neon-blue;
+  border-radius: 3px;
+  padding: 14px 58px 12px 48px;;
+}
+
+.about__button a {
+  color: $color-neon-blue;
 }

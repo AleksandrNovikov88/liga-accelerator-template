@@ -3,11 +3,19 @@
 }
 
 .page-header__wrapper {
+  height: 120px;
+}
 
+.main-nav {
+  padding-top: 30px;
+  padding-left: 350px;
+  padding-right: 410px;
 }
 
 .main-nav__list {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -16,3 +24,11 @@
 .main-nav__item a {
   color: $color-default-white;
 }
+
+.main-nav__btn {
+  border: 1px solid $color-default-white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+

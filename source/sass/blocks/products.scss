@@ -1,11 +1,27 @@
 .products {
-  background-color: $color-background-products;
-  height: 960px;
+  background-color: $color-background-products-btn-footer;
+  height: auto;
+  margin-top: 98px;
+  padding-bottom: 140px;
+}
+
+.products__wrapper {
+  margin: 0 auto;
+  width: 1220px;
+}
+
+.products__heading {
+  padding-top: 68px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 51px;
 }
 
 .products__heading,
 .product__item {
-  color: $color-default-white;
+  color: $color-white;
 }
 
 .products__list {
@@ -13,8 +29,7 @@
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-top: 53px;
   list-style: none;
 }
 
@@ -23,16 +38,29 @@
   height: 650px;
 }
 
+.product__item h5 {
+  width: 155px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 39px;
+  margin-top: 46px;
+}
+
 .products__btn {
   width: 60px;
   height: 60px;
-  margin-top: 543px;
+  margin-top: 483px;
   margin-left: 289px;
-  background-color: #00B2FF;
+  background-color: $color-neon-blue;
 }
 
 .products__link {
-  margin-left: 25px;
+  position: absolute;
+  margin-left: 30px;
+  padding-top: 18px;
 }
 
 .production-of-boards {
