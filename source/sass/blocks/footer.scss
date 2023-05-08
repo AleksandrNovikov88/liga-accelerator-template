@@ -1,88 +1,151 @@
-.footer {
-  background-color: $color-background-products-btn-footer;
-  height: auto;
-  padding-top: 50px;
-  padding-bottom: 37px;
+@media (max-width: $desktop-width) {
+  .footer {
+    background-color: $color-background-products-btn-footer;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 37px;
+  }
+
+  .footer__social {
+    margin-top: 28px;
+    margin-left: -14px;
+  }
+
+  .sections-site__heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $color-default-white;
+    margin-top: 7px;
+  }
+
+  .contacts__heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $color-default-white;
+    margin-top: 7px;
+    margin-left: -10px;
+  }
+
+  //.sections-site__heading,
+  //.contacts__heading,
+  .contacts__telephon,
+  .social__list,
+  .sections-site__list,
+  .contacts__list {
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: $color-default-white;
+  }
+
+  .sections-site__list {
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .sections-site__item {
+    padding-top: 15px;
+  }
+
+  .footer__footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+    margin: 0 auto;
+  }
+
+  .social__list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 197px;
+  }
+
+  .sections-site {
+    width: 245px;
+    margin-left: -122px;
+  }
+
+  .footer__contacts {
+    width: 320px;
+  }
 }
 
-.footer__social {
-  margin-top: 28px;
-  margin-left: -14px;
+@media (max-width: $tablet-width) {
+  .footer__footer-container {
+    display: block;
+
+    width: 700px;
+    height: 465px;
+
+  }
+
+  .footer__logo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 27px;
+  }
+
+  .sections-site {
+    display: inline-table;
+    width: 340px;
+    margin: 0;
+  }
+
+  .footer__contacts {
+    display: inline-table;
+  }
+
+  .footer__social {
+    margin-top: 12px;
+    margin-left: -14px;
+  }
+
+
+
+  .footer__contacts {
+    display: inline-block;
+    width: 320px;
+  }
+
+  .sections-site__list {
+    height: 200px;
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+
+
+  .social__list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 197px;
+  }
+
+  .sections-site__list {
+    height: 169px;
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 
-.sections-site__heading {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 16px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: $color-default-white;
-  margin-top: 7px;
-}
-
-.contacts__heading {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 16px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: $color-default-white;
-  margin-top: 7px;
-  margin-left: -10px;
-}
-
-//.sections-site__heading,
-//.contacts__heading,
-.contacts__telephon,
-.social__list,
-.sections-site__list,
-.contacts__list {
-  font-family: 'PT Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 135%;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  color: $color-default-white;
-}
-
-.sections-site__list {
-  height: 169px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.sections-site__item {
-  padding-top: 15px;
-}
-
-.footer__footer-container {
-  display: flex;
-  justify-content: space-between;
-  width: 1220px;
-  margin: 0 auto;
-}
-
-.social__list {
-  display: flex;
-  justify-content: space-evenly;
-  width: 197px;
-}
-
-.sections-site {
-  width: 245px;
-  margin-left: -122px;
-}
-
-.footer__contacts {
-  width: 320px;
-}
 
 

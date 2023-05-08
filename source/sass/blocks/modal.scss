@@ -59,15 +59,71 @@
   &__content {
     position: relative;
 
-    width: 600px;
+    width: 500px;
     padding: 40px;
 
-    background-color: $color-default-white;
+    background-color: $color-default-blue;
 
     @include vp-767 {
       width: 100%;
       padding: 20px;
     }
+
+
+  }
+
+  &__heading {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140.62%;
+    color: $color-white;
+    }
+
+  &__text {
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-white;
+  }
+
+  &__name {
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-white;
+    background: rgba(4, 20, 39, 0.15);
+    border: none;
+    border-radius: 3px;
+  }
+
+  &__phone {
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-white;
+    background: rgba(4, 20, 39, 0.15);
+    border: none;
+    border-radius: 3px;
+  }
+
+  &__textarea {
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-white;
+    background: rgba(4, 20, 39, 0.15);
+    border: none;
+    border-radius: 3px;
   }
 
   &__close-btn {
