@@ -100,6 +100,34 @@
   }
 }
 
+@media (max-width: $mobile-width) {
+  .advantages__wrapper {
+    width: 320px;
+    padding-top: 47px;
+  }
+
+  .advantage__item {
+    width: 277px;
+    height: 343px;
+    padding-top: 25px;
+    margin-bottom: 28px;
+  }
+
+  .item {
+    margin-top: 0px;
+  }
+
+  .advantage__item-heading {
+    font-size: 20px;
+  }
+
+  .advantage__text {
+    font-size: 14px;
+    margin-left: 31px;
+  }
+
+}
+
 
 
 

@@ -69,3 +69,43 @@
   }
 }
 
+@media (max-width: $mobile-width) {
+  .about__png {
+    display: none;
+  }
+
+  .about__wrapper {
+    width: 320px;
+    padding-top: 0px;
+    grid-template-columns: none;
+  }
+
+  .about__heading {
+    font-size: 28px;
+    line-height: 140.62%;
+    margin-left: 4px;
+  }
+
+  .about__text {
+    font-size: 14px;
+    line-height: 134.4%;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+
+  .about__text--paragraph-one {
+    width: 285px;
+  }
+
+  .about__text--paragraph-three {
+    display: none;
+  }
+
+  .about__button {
+    margin-top: 17px;
+    margin-left: 5px;
+    padding: 9px 42px 9px 45px;
+  }
+
+}
+

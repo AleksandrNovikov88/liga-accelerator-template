@@ -1400,6 +1400,10 @@ button,
     text-transform: uppercase;
   }
 
+  .logo__mobil {
+    display: none;
+  }
+
   .intro__wrapper {
     width: 100%;
     height: 910px;
@@ -1441,7 +1445,9 @@ button,
     margin-top: 31px;
   }
 
-  .inrto__text a {
+  .intro__btn {
+    position: absolute;
+    width: 409px;
     margin-top: 46px;
     font-family: "Roboto Condensed";
     font-style: normal;
@@ -1451,6 +1457,8 @@ button,
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    margin-top: -336px;
+    margin-left: 476px;
   }
 
   .intro__btn {
@@ -1462,6 +1470,10 @@ button,
     background-color: #00B2FF;
     border: none;
     border-radius: 3px;
+  }
+
+  .intro__btn-mobile {
+    display: none;
   }
 
   .advantages__wrapper {
@@ -1599,6 +1611,10 @@ button,
     font-weight: 400;
     font-size: 36px;
     line-height: 51px;
+  }
+
+  .products__heading--mobile {
+    display: none;
   }
 
   .products__heading,
@@ -1893,7 +1909,8 @@ button,
 @media (max-width: 770px) {
   .main-nav__btn,
   .contacts__telephon,
-  .contacts__mail {
+  .contacts__mail,
+  .logo__mobil {
     display: none;
   }
 
@@ -1905,11 +1922,11 @@ button,
     justify-content: start;
   }
 
-  .main-nav__item:nth-child(2) {
+  .main-nav__item:nth-child(3) {
     margin-left: 350px;
   }
 
-  .main-nav__item:nth-child(3) {
+  .main-nav__item:nth-child(4) {
     margin-left: 30px;
   }
 
@@ -1941,9 +1958,13 @@ button,
     margin-top: 1px;
   }
 
-  .inrto__text a {
-    margin-top: 55px;
-    margin-left: 44px;
+  .intro__btn {
+    margin-top: -261px;
+    margin-left: 657px;
+  }
+
+  .intro__btn-mobile {
+    display: none;
   }
 
   .advantages__wrapper {
@@ -2226,6 +2247,273 @@ button,
     -webkit-transform: translateY(calc(-50% - 5px));
     -ms-transform: translateY(calc(-50% - 5px));
     transform: translateY(calc(-50% - 5px));
+  }
+}
+
+@media (max-width: 320px) {
+  .main-nav__list {
+    width: 250px;
+  }
+
+  .page-header__wrapper {
+    height: 90px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo__mobil {
+    display: initial;
+  }
+
+  .main-nav__item:nth-child(3) {
+    margin-left: 135px;
+  }
+
+  .main-nav__item:nth-child(4) {
+    margin-left: 40px;
+  }
+
+  .intro__wrapper {
+    height: 636px;
+  }
+
+  .inrto__text h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .inrto__text {
+    margin-top: -409px;
+    margin-left: 804px;
+  }
+
+  .inrto__text p {
+    width: 300px;
+    font-size: 14px;
+    margin-top: 6px;
+  }
+
+  .intro__btn {
+    display: none;
+  }
+
+  .intro__btn-mobile {
+    display: initial;
+    position: absolute;
+    width: 270px;
+    margin-top: 46px;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 10px 45px;
+    color: #F2F5F7;
+    background-color: #00B2FF;
+    border: none;
+    border-radius: 3px;
+    margin-top: -227px;
+    margin-left: 804px;
+  }
+
+  .advantages__wrapper {
+    width: 320px;
+    padding-top: 47px;
+  }
+
+  .advantage__item {
+    width: 277px;
+    height: 343px;
+    padding-top: 25px;
+    margin-bottom: 28px;
+  }
+
+  .item {
+    margin-top: 0px;
+  }
+
+  .advantage__item-heading {
+    font-size: 20px;
+  }
+
+  .advantage__text {
+    font-size: 14px;
+    margin-left: 31px;
+  }
+
+  .about__png {
+    display: none;
+  }
+
+  .about__wrapper {
+    width: 320px;
+    padding-top: 0px;
+    -ms-grid-columns: none;
+    grid-template-columns: none;
+  }
+
+  .about__heading {
+    font-size: 28px;
+    line-height: 140.62%;
+    margin-left: 4px;
+  }
+
+  .about__text {
+    font-size: 14px;
+    line-height: 134.4%;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+
+  .about__text--paragraph-one {
+    width: 285px;
+  }
+
+  .about__text--paragraph-three {
+    display: none;
+  }
+
+  .about__button {
+    margin-top: 17px;
+    margin-left: 5px;
+    padding: 9px 42px 9px 45px;
+  }
+
+  .products {
+    margin-top: 79px;
+  }
+
+  .products__wrapper {
+    width: 320px;
+    padding-top: 48px;
+  }
+
+  .products__heading {
+    display: none;
+  }
+
+  .products__heading--mobile {
+    display: initial;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+  }
+
+  .product__item {
+    width: 270px;
+  }
+
+  .product__item h5 {
+    font-size: 18px;
+  }
+
+  .products__btn {
+    margin-top: 84px;
+    margin-left: 209px;
+  }
+
+  .production-of-boards {
+    background-image: url(/img/products/plata1for320.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .mounting-of-boards {
+    background-image: url(/img/products/plata2for320.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+  }
+
+  .accessories {
+    background-image: url(/img/products/plata3for320.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+  }
+
+  .feedback {
+    height: 755px;
+  }
+
+  .feedback__wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: none;
+    grid-template-columns: none;
+    width: 270px;
+    margin: 0 auto;
+    padding-top: 55px;
+  }
+
+  .form__question {
+    width: 270px;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-top: -10px;
+    margin-left: -20px;
+  }
+
+  .form__consultation {
+    width: 270px;
+    font-family: "PT Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 11px;
+    margin-left: -20px;
+  }
+
+  .form__username {
+    display: block;
+    width: 320px;
+    margin-top: 36px;
+    margin-left: -20px;
+  }
+
+  .input-username__phone {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .form__letter {
+    margin-left: -20px;
+  }
+
+  .letter__textarea {
+    font-family: "PT Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    background: rgba(4, 20, 39, 0.15);
+    border-radius: 3px;
+    padding: 23px 68px 135px 10px;
+    margin-top: 22px;
+  }
+
+  .form__button-checkbox-wrapper {
+    display: block;
+  }
+
+  .form__checkbox-wrapper {
+    width: 233px;
+    margin-left: -17px;
+    margin-top: 14px;
   }
 }
 
