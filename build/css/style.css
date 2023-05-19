@@ -1843,7 +1843,7 @@ button,
     margin-left: -10px;
   }
 
-  .contacts__telephon,
+  .contacts__telephon-footer,
   .social__list,
   .sections-site__list,
   .contacts__list {
@@ -1859,7 +1859,6 @@ button,
   }
 
   .sections-site__list {
-    height: 169px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2105,8 +2104,8 @@ button,
 
   .footer__footer-container {
     display: block;
+    height: auto;
     width: 700px;
-    height: 465px;
   }
 
   .footer__logo {
@@ -2120,34 +2119,13 @@ button,
   }
 
   .sections-site {
-    display: inline-table;
     width: 340px;
     margin: 0;
-  }
-
-  .footer__contacts {
-    display: inline-table;
   }
 
   .footer__social {
     margin-top: 12px;
     margin-left: -14px;
-  }
-
-  .footer__contacts {
-    display: inline-block;
-    width: 320px;
-  }
-
-  .sections-site__list {
-    height: 200px;
-    display: block;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
   }
 
   .social__list {
@@ -2161,7 +2139,6 @@ button,
   }
 
   .sections-site__list {
-    height: 169px;
     display: block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2169,6 +2146,10 @@ button,
     flex-direction: column;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+  }
+
+  .contacts__heading {
+    margin-left: 0px;
   }
 }
 

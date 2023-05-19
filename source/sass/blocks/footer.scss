@@ -38,7 +38,7 @@
 
   //.sections-site__heading,
   //.contacts__heading,
-  .contacts__telephon,
+  .contacts__telephon-footer,
   .social__list,
   .sections-site__list,
   .contacts__list {
@@ -54,7 +54,7 @@
   }
 
   .sections-site__list {
-    height: 169px;
+    //height: 169px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -90,10 +90,8 @@
 @media (max-width: $tablet-width) {
   .footer__footer-container {
     display: block;
-
+    height: auto;
     width: 700px;
-    height: 465px;
-
   }
 
   .footer__logo {
@@ -103,35 +101,14 @@
   }
 
   .sections-site {
-    display: inline-table;
     width: 340px;
     margin: 0;
-  }
-
-  .footer__contacts {
-    display: inline-table;
   }
 
   .footer__social {
     margin-top: 12px;
     margin-left: -14px;
   }
-
-
-
-  .footer__contacts {
-    display: inline-block;
-    width: 320px;
-  }
-
-  .sections-site__list {
-    height: 200px;
-    display: block;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-
 
   .social__list {
     display: flex;
@@ -140,10 +117,14 @@
   }
 
   .sections-site__list {
-    height: 169px;
+    //height: 169px;
     display: block;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+
+  .contacts__heading {
+    margin-left: 0px;
   }
 }
 
