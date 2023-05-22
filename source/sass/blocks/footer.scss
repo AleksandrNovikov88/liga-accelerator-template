@@ -36,12 +36,13 @@
     margin-left: -10px;
   }
 
-  //.sections-site__heading,
-  //.contacts__heading,
+  .social__list {
+    margin: 0;
+    padding: 0;
+  }
+
   .contacts__telephon-footer,
-  .social__list,
-  .sections-site__list,
-  .contacts__list {
+  .sections-site__list {
     font-family: 'PT Mono';
     font-style: normal;
     font-weight: 400;
@@ -53,8 +54,25 @@
     color: $color-default-white;
   }
 
+  .contacts__list {
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: $color-default-white;
+    margin: 23px 0px 0 -10px;
+  }
+
+  .sections-site__container{
+    display: flex;
+  }
+
+
   .sections-site__list {
-    //height: 169px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -66,7 +84,7 @@
 
   .footer__footer-container {
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
     width: 1220px;
     margin: 0 auto;
   }
@@ -78,14 +96,22 @@
   }
 
   .sections-site {
-    width: 245px;
-    margin-left: -122px;
+    width: 370px;
+    margin-left: 160px;
   }
 
   .footer__contacts {
     width: 320px;
+    //margin-right: 15px;
+    margin-left: 140px;
+  }
+
+  .footer__block {
+    display: flex;
   }
 }
+
+/* Таблетка */
 
 @media (max-width: $tablet-width) {
   .footer__footer-container {
@@ -101,7 +127,10 @@
   }
 
   .sections-site {
-    width: 340px;
+    margin: 0;
+  }
+
+  .footer__contacts {
     margin: 0;
   }
 
@@ -117,7 +146,6 @@
   }
 
   .sections-site__list {
-    //height: 169px;
     display: block;
     flex-direction: column;
     flex-wrap: wrap;
@@ -126,6 +154,38 @@
   .contacts__heading {
     margin-left: 0px;
   }
+
+  .sections-site__container {
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: $mobile-width) {
+  .footer {
+    padding-top: 35px;
+  }
+
+  .footer__footer-container {
+    width: 320px;
+  }
+
+  .footer__logo {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .contacts__telephon-footer,
+  .sections-site__list,
+  .contacts__list {
+    font-size: 14px;
+  }
+
+  .footer__block {
+    flex-direction: column;
+  }
+
 }
 
 
