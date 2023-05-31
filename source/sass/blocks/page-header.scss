@@ -26,7 +26,21 @@
     color: $color-default-white;
   }
 
+  .contacts__telephon,
+  .contacts__mail {
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
   .main-nav__btn {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
     border: 1px solid $color-default-white;
     padding: 10px 15px 10px 15px;
     border-radius: 5px;
