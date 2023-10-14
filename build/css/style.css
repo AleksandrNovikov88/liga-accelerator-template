@@ -1444,6 +1444,7 @@ button,
   }
 
   .inrto__text h2 {
+    width: 720px;
     font-family: "Roboto Condensed";
     font-style: normal;
     font-weight: 700;
@@ -1528,14 +1529,12 @@ button,
     border-bottom: 2px solid #EBEBEB;
   }
 
-  .advantage__item:hover,
-  .advantage__item h4:hover {
-    background-color: #00B2FF;
-    color: #F2F5F7;
-  }
-
   .advantage__item span {
     margin-left: 41px;
+  }
+
+  .advantage__item-heading:hover {
+    color: #F2F5F7;
   }
 
   .advantage__item-heading {
@@ -1548,6 +1547,11 @@ button,
     margin: 0;
     padding-left: 41px;
     padding-top: 14px;
+  }
+
+  .advantage__item:hover {
+    background-color: #00B2FF;
+    color: #F2F5F7;
   }
 
   .advantage__text {
@@ -1988,6 +1992,7 @@ button,
   }
 
   .inrto__text h2 {
+    width: 670px;
     font-size: 64px;
     line-height: 75px;
   }
@@ -2250,6 +2255,7 @@ button,
   }
 
   .inrto__text h2 {
+    width: 270px;
     font-size: 36px;
     line-height: 42px;
   }

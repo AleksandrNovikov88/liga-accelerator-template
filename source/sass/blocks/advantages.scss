@@ -28,14 +28,12 @@
     border-bottom: 2px solid $color-grey-border;
   }
 
-  .advantage__item:hover,
-  .advantage__item h4:hover {
-    background-color: $color-neon-blue;
-    color: $color-default-white;
-  }
-
   .advantage__item span {
     margin-left: 41px;
+  }
+
+  .advantage__item-heading:hover {
+    color: $color-default-white;
   }
 
   .advantage__item-heading {
@@ -48,6 +46,11 @@
     margin: 0;
     padding-left: 41px;
     padding-top: 14px;
+  }
+
+  .advantage__item:hover {
+    background-color: $color-neon-blue;
+    color: $color-default-white;
   }
 
   .advantage__text {
